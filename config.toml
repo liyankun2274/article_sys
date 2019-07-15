@@ -1,0 +1,11 @@
+# port
+port = ":8889"
+
+# mysql
+mysql_db = "root:123456@tcp(127.0.0.1:3306)/auto_magic?charset=utf8&parseTime=True&loc=Local"
+
+# redis url
+redis_url = "localhost:6379"
+
+# session store in redis prefix
+redis_session_prefix = "article/session/"
